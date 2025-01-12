@@ -6,9 +6,11 @@
     <title>Exercise 2</title>
 </head>
 <body>
+    <h1>Hello World!</h1>h
     <?php
     $dateT = date('F', time());
     echo $dateT;
     ?>
+
 </body>
 </html>
