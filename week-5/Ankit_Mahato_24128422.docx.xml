@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<indexing>
+ <paragraph index="4" node_type="writer"> This is related to a concept in Engineering called “Reverse Engineering” the process of trying to recreate a design for a system which is as close as possible to the original by understanding how an implementation of that system works</paragraph>
+ <paragraph index="7" node_type="writer"> So we can keep track of whether the answer is primarily derived through your own existing understanding, or based on reviewing the work of someone else – this is not a negative at all when you are starting to learn a new tool or concept! Experienced developers started building their knowledge from somewhere, but you want to clearly reflect on how you are building those skills and knowledge and where you are getting it from</paragraph>
+ <paragraph index="10" node_type="writer"> Referencing is very important, but a simple url, etc is fine for the lab content </paragraph>
+ <paragraph index="13" node_type="writer"> If you need to work on it further then please show us what you have done so far and then continue to work on it further, this allows us to ‘temperature check’ your progress as a group. </paragraph>
+ <paragraph index="16" node_type="writer"> The earlier you tell us, the better 😉 Get our attention and discuss what you need help with so we can advise you</paragraph>
+ <paragraph index="19" node_type="writer"> That’s where the fun stuff (and the money) is when it comes to Software Development 😉</paragraph>
+ <object alt="" name="Picture 21" object_type="graphic"/>
+ <object alt="" name="Picture 22" object_type="graphic"/>
+ <object alt="" name="Picture 23" object_type="graphic"/>
+ <object alt="" name="Picture 25" object_type="graphic"/>
+ <object alt="" name="Picture 4" object_type="graphic"/>
+ <object alt="" name="Picture 1602905853" object_type="graphic"/>
+ <object alt="" name="Picture 1678718155" object_type="graphic"/>
+ <object alt="" name="Picture 1974124226" object_type="graphic"/>
+ <object alt="" name="Picture 26" object_type="graphic"/>
+ <object alt="" name="Content Placeholder 3" object_type="graphic"/>
+ <object alt="" name="Picture 972437389" object_type="graphic"/>
+ <object alt="" name="Picture 1036503031" object_type="graphic"/>
+ <object alt="" name="Picture 803118990" object_type="graphic"/>
+ <object alt="" name="Picture 5" object_type="graphic"/>
+ <object alt="" name="Picture 1896837643" object_type="graphic"/>
+ <object alt="" name="Picture 1817727970" object_type="graphic"/>
+ <object alt="" name="Picture 196048924" object_type="graphic"/>
+ <object alt="" name="Picture 636596036" object_type="graphic"/>
+ <object alt="" name="Picture 1" object_type="graphic"/>
+ <object alt="" name="Picture 578419032" object_type="graphic"/>
+ <object alt="" name="Picture 1527797751" object_type="graphic"/>
+ <object alt="" name="Picture 765145649" object_type="graphic"/>
+ <object alt="" name="Picture 1615507937" object_type="graphic"/>
+ <object alt="" name="Picture 646581902" object_type="graphic"/>
+ <object alt="" name="Picture 1685763988" object_type="graphic"/>
+ <object alt="" name="Picture 1933100835" object_type="graphic"/>
+ <object alt="" name="Picture 907080943" object_type="graphic"/>
+ <object alt="" name="Image2" object_type="graphic"/>
+ <object alt="" name="Picture 1496580927" object_type="graphic"/>
+ <object alt="" name="Picture 1359257425" object_type="graphic"/>
+ <object alt="" name="Picture 780035719" object_type="graphic"/>
+ <object alt="" name="Picture 663675245" object_type="graphic"/>
+ <object alt="" name="Picture 1134133845" object_type="graphic"/>
+ <object alt="" name="Picture 920446606" object_type="graphic"/>
+ <object alt="" name="Picture 1284615413" object_type="graphic"/>
+ <object alt="" name="Picture 1995446638" object_type="graphic"/>
+ <object alt="" name="Picture 1657288355" object_type="graphic"/>
+ <object alt="" name="Picture 551144030" object_type="graphic"/>
+ <object alt="" name="Picture 416055826" object_type="graphic"/>
+ <object alt="" name="Picture 1782383706" object_type="graphic"/>
+ <object alt="" name="Image3" object_type="graphic"/>
+ <object alt="" name="Image4" object_type="graphic"/>
+ <object alt="" name="Picture 9" object_type="graphic"/>
+ <object alt="" name="Picture 10" object_type="graphic"/>
+ <object alt="" name="Picture 11" object_type="graphic"/>
+ <object alt="" name="Picture 2061831421" object_type="graphic"/>
+ <object alt="" name="Picture 498688211" object_type="graphic"/>
+ <object alt="" name="Picture 1524763535" object_type="graphic"/>
+ <object alt="" name="Picture 2041699276" object_type="graphic"/>
+ <object alt="" name="Picture 13863584" object_type="graphic"/>
+ <paragraph index="174" node_type="writer">Page  of </paragraph>
+ <paragraph index="187" node_type="writer">Overview [Lab work and Homework]</paragraph>
+ <paragraph index="188" node_type="writer">As discussed in the lecture we will start off in the module by presenting you with an opportunity to get setup with some of the basic tooling which will be used for the module.  In this lab we will introduce some of our basic tech stack and begin exploring some basic use of the various elements of this tech stack.</paragraph>
+ <paragraph index="189" node_type="writer">Many of the exercises below are intended to prompt both thinking and discussion, don’t just be satisfied with a surface level of understanding talk to your tutors in class and share your thoughts and ideas with us! </paragraph>
+ <paragraph index="190" node_type="writer">This tutorial makes use of the XAMPP software package, we recommend using a portable version of this software package The lab tutorial forms both the lab work and homework for the week 5 activities.</paragraph>
+ <paragraph index="192" node_type="writer">Objectives</paragraph>
+ <paragraph index="193" node_type="writer">Analyse and dissect existing sample entity relationship diagrams to understand the planning / design information they convey to the Engineering team.</paragraph>
+ <paragraph index="194" node_type="writer">Produce SQL statements which would be capable of putting example records into the tables represented within the design found in a given ERD.</paragraph>
+ <paragraph index="195" node_type="writer">Explain the purpose of some basic SQL statements used to implement a database system.</paragraph>
+ <paragraph index="196" node_type="writer">Produce an entity relationship diagram which conveys information about the structure of an existing database system.</paragraph>
+ <paragraph index="202" node_type="writer">Additional information: Tracking your learning progress.</paragraph>
+ <paragraph index="203" node_type="writer">To help track your progress early in the module, we will be using a little system in these first few weeks to help you track your understanding so far. This will give you an opportunity to show how you are getting on with understanding the material each week during the early stages of the module so we can better guide you through developing your knowledge and understanding. When attempting your answer also be honest and discuss with us when you needed to do some additional background research, and show us where you got your information from.</paragraph>
+ <paragraph index="204" node_type="writer">Progress checker</paragraph>
+ <paragraph index="205" node_type="writer">The progress checker is included at the end of our various exercises to allow you to keep a record of your learning, giving you an opportunity to quickly show us your progress and discuss in class during the following week. It also encourages you to keep a record of this progress to help you to reflect on your developing skills and understanding during the module.</paragraph>
+ <paragraph index="206" node_type="writer">Example “Progress checker”</paragraph>
+ <paragraph index="207" node_type="writer">Please select the answer you feel best describes your level of understanding for each exercise (an example progress checker can be seen in figure 1.</paragraph>
+ <object index="208" name="Table1" object_type="table"/>
+ <paragraph index="210" node_type="writer" parent_index="208">Now let’s check how well you have understood so far! 😊</paragraph>
+ <paragraph index="213" node_type="writer" parent_index="208">How did you find attempting this exercise? </paragraph>
+ <paragraph index="216" node_type="writer" parent_index="208">Choose one (X)</paragraph>
+ <paragraph index="219" node_type="writer" parent_index="208"> I’m very confident that I have understood and completed this task successfully</paragraph>
+ <paragraph index="222" node_type="writer" parent_index="208">X</paragraph>
+ <paragraph index="225" node_type="writer" parent_index="208"> I’m fairly confident that I have understood and completed this task successfully</paragraph>
+ <paragraph index="231" node_type="writer" parent_index="208"> I think I’m getting there but I need to work on understanding this a little more</paragraph>
+ <paragraph index="237" node_type="writer" parent_index="208"> I got a bit stuck and I will need to work on understanding this a lot more</paragraph>
+ <paragraph index="243" node_type="writer">Figure  An example 'progress checker'</paragraph>
+ <paragraph index="246" node_type="writer">Food for thought</paragraph>
+ <paragraph index="247" node_type="writer">The “Food for thought” messages boxes provide some prompts for you to work on deepening your understanding as you progress through the labs a good Computer Scientist / Data Scientist / Software Engineer recognises the value of picking apart the tools and concepts they are learning about to deepen their understanding. Fundamentally, we aim for this module to not just be about you “Developing Database-backed Web Applications” but about refining your approach to problem solving in Software Development, to help you become a more well-rounded Engineer 😊</paragraph>
+ <paragraph index="248" node_type="writer">To help this process along we will use the “Food for thought” message boxes to provide some suggested starting points to investigate various aspects of what you are doing in the labs further, moving you away from approaching development as simply “remembering ‘recipes’ from a cookbook” to “understanding what tools/techniques/concepts to apply”, “when to apply them”, “how to apply them” and “why we tend to apply them in a particular way”</paragraph>
+ <paragraph index="250" node_type="writer">Figure  The Swedish Chef (By Disney.com, Fair use, https://en.wikipedia.org/w/index.php?curid=40291413)</paragraph>
+ <paragraph index="251" node_type="writer">Think about it like this: developers are a bit like chefs, we don’t just memorise and follow a bunch of “recipes” (example programs) from someone else’s “cookbook” (tutorial / documentation / example code) we are experienced enough to understand how those recipes work and why they work so we can use that understanding to develop our own recipes and serve up our own tasty dishes to our customers (our own software applications)</paragraph>
+ <paragraph index="252" node_type="writer">Example “Food for thought”</paragraph>
+ <object index="253" name="Table2" object_type="table"/>
+ <paragraph index="255" node_type="writer" parent_index="253">Food for thought </paragraph>
+ <paragraph index="258" node_type="writer" parent_index="253">Let’s deepen our understanding by thinking a little deeper about this exercise and discussing our thoughts in class.</paragraph>
+ <paragraph index="261" node_type="writer" parent_index="253">We will have a sample prompt to think about / experiment with some aspect of the lab in this bit usually.</paragraph>
+ <paragraph index="266" node_type="writer">Be an active learner. Help us help you to grow.</paragraph>
+ <paragraph index="267" node_type="writer">As well as recording your progress with the lab work so far and discussing with us during the following week, please make sure you tell us in class about any aspects of the current week’s work you are particularly struggling to understand. From what we have seen so far based on your progress at Level 4 many of you are still working your way up from the lower levels in your understanding of programming / software development. To turn you into an effective Software Engineer / Software Developer we need you to work with us to move away from those basic, lower levels of understanding, which will require you to work on actively developing your skills (with our guidance along the way 😊) to reach those higher levels.</paragraph>
+ <paragraph index="268" node_type="writer">We want you to move from:</paragraph>
+ <paragraph index="269" node_type="writer">Memorising recipes / definitions</paragraph>
+ <paragraph index="270" node_type="writer">By </paragraph>
+ <paragraph index="271" node_type="writer">Understanding the tools, techniques and concepts underpinning our examples / exercises</paragraph>
+ <paragraph index="272" node_type="writer">Then working on</paragraph>
+ <paragraph index="273" node_type="writer">Applying these tools, techniques, and concepts. Experimenting with them to gain deeper understanding.</paragraph>
+ <paragraph index="274" node_type="writer">So that you can eventually</paragraph>
+ <paragraph index="275" node_type="writer">Create your own original software solutions through an informed approach to planning, designing, and implementing software. </paragraph>
+ <paragraph index="276" node_type="writer">Analyse the different approaches (e.g tools, techniques and concepts) that could be applied to help solve a problem and how best to use them.</paragraph>
+ <paragraph index="277" node_type="writer">Evaluate your approach (and others) to help develop your better judgment when creating software.</paragraph>
+ <paragraph index="279" node_type="writer">Figure  The different levels of learning, to discuss in class (ThoughtCo, 2019)</paragraph>
+ <paragraph index="280" node_type="writer">Week 4 – Designing Databases part 1</paragraph>
+ <paragraph index="281" node_type="writer">Before attempting the below lab exercises ensure that you have set up an XAMPP instance capable of running the Apache web server and MySQL on the device you are using, work with your lab tutor to familiarise yourself with this process – they will likely demo this process as part of the introductory lab talk.</paragraph>
+ <paragraph index="283" node_type="writer">You may find the following documentation available online useful for your exploration and interpretation of Entity Relationship Diagrams </paragraph>
+ <paragraph index="284" node_type="writer">[Article] Visual Paradigm: What is Entity Relationship Diagram (ERD)?</paragraph>
+ <paragraph index="285" node_type="writer">To bolster your understanding of what information is contained within an ERD.</paragraph>
+ <paragraph index="286" node_type="writer">[Article] Visual Paradigm: What is Data Modeling?</paragraph>
+ <paragraph index="287" node_type="writer">To bolster your understanding of why we would use data modelling techniques such as entity relationship modelling in Software Engineering projects.</paragraph>
+ <paragraph index="288" node_type="writer">[Article] Work with entity relationship table shapes in draw.io</paragraph>
+ <paragraph index="289" node_type="writer">This will be useful for providing some software capable of drawing out your design diagrams for various ERDs.</paragraph>
+ <paragraph index="290" node_type="writer">[Video] Entity Relationship Diagram (ERD) Tutorial – Part 1</paragraph>
+ <paragraph index="291" node_type="writer">[Video] Entity Relationship Diagram (ERD) Tutorial – Part 2</paragraph>
+ <paragraph index="292" node_type="writer">[Video] Database Keys Made Easy – Primary, Foreign, Candidate, Surrogate, &amp; Many More</paragraph>
+ <paragraph index="293" node_type="writer">[Video] Create Entity Relationship Diagrams (ERD) with draw.io</paragraph>
+ <paragraph index="295" node_type="writer">Note: The diagrams below were created using Visual Paradigm Community Edition. However, equivalent Crows Feet notation ERDs can be created using the Software at draw.io.</paragraph>
+ <paragraph index="296" node_type="writer">Exercise 1</paragraph>
+ <paragraph index="297" node_type="writer">Please answer the below questions based on the following entity relationship diagram:</paragraph>
+ <paragraph index="299" node_type="writer">Figure  Example ERD 1</paragraph>
+ <paragraph index="301" node_type="writer">Is this kind of ERD a logical, conceptual, or physical ERD model of a database system? Justify your answer.</paragraph>
+ <paragraph index="302" node_type="writer">What are the entities that are represented within this system design?</paragraph>
+ <paragraph index="303" node_type="writer">What attributes are represented within this system design?</paragraph>
+ <paragraph index="304" node_type="writer">Write out some INSERT INTO statements in SQL which would insert some example tuples/records into Customer, Customer_Movie, Movie and Producer (aim for at least 2 records for each) – you do not need to create the database beforehand! Just think about what records you would like to add and what SQL code you could write to insert those records.</paragraph>
+ <paragraph index="305" node_type="writer">What benefits might storing the FirstName and LastName of the customer as separate items provide?</paragraph>
+ <paragraph index="306" node_type="writer">Why might it be better to use a date datatype for the Customer’s data of birth rather than a TEXT, VARCHAR or String datatype?</paragraph>
+ <paragraph index="307" node_type="writer">What issues might occur with storing a value from 1 to 5 for a star rating in the form of a single character be?</paragraph>
+ <paragraph index="308" node_type="writer">What is the meaning of the key symbol next to ‘MovieID’ on Customer_Movie?</paragraph>
+ <paragraph index="309" node_type="writer">What is the meaning of the key symbol next to ‘CustomerID’ on Customer_Movie?</paragraph>
+ <paragraph index="310" node_type="writer">Why are Customer and Movie not connected directly to each other? What benefit does Customer_Movie provide?</paragraph>
+ <paragraph index="311" node_type="writer">What cardinality of relationship exists between Customer and Customer_Movie? What do you think this relationship represents?</paragraph>
+ <paragraph index="312" node_type="writer">What kind of software system do you believe this partial database design might be targeted towards? </paragraph>
+ <object index="315" name="Table3" object_type="table"/>
+ <paragraph index="317" node_type="writer" parent_index="315">Food for thought </paragraph>
+ <paragraph index="320" node_type="writer" parent_index="315">Let’s deepen our understanding by thinking a little deeper about this exercise and discussing our thoughts in class.</paragraph>
+ <paragraph index="323" node_type="writer" parent_index="315">What limitations does this current database design present about the kind of software system which it could underpin? Think about the kind of data that would be able to be represented within the system based on the entities, attributes and relationships present.</paragraph>
+ <object index="327" name="Table4" object_type="table"/>
+ <paragraph index="329" node_type="writer" parent_index="327">My solution </paragraph>
+ <paragraph index="332" node_type="writer" parent_index="327">Record your notes about how you attempted to answer the question / solve the exercise in this section (just edit the text box 😉)</paragraph>
+ <paragraph index="334" node_type="writer" parent_index="327">The given ERD is a logical model. It shows entities like Customer, Movie, Producer, and Customer_Movie, along with their attributes such as ID, FirstName, and Title. It indicates the type of data for each attribute, like varchar or integer, and suggests primary keys with &quot;ID&quot; fields and foreign keys through matching attributes in related tables. However, it does not include specific database data types, clear notations for primary and foreign keys, indexes, constraints, or other details needed for a physical ERD. It also does not provide a high-level view like a conceptual ERD, which would leave out attributes. Thus, it remains at the logical level, outlining the data structure and relationships without detailing the physical implementation.</paragraph>
+ <paragraph index="337" node_type="writer" parent_index="327">The Entities that are present in the system design are: customer, movie, producer, customer_movie.</paragraph>
+ <paragraph index="340" node_type="writer" parent_index="327">The attributes represented in the system Design are:</paragraph>
+ <paragraph index="341" node_type="writer" parent_index="327">Customer: ID (primary key), FirstName, LastName, Address, BirthDate, PhoneNumber.</paragraph>
+ <paragraph index="343" node_type="writer" parent_index="327">Movie: ID(primary key), ProducerId (Foreign key), Title, Duration, Rating.</paragraph>
+ <paragraph index="344" node_type="writer" parent_index="327">Producer: ID, CompanyName, Country.</paragraph>
+ <paragraph index="346" node_type="writer" parent_index="327">Customer_Movie: MovieID (Primary Key, Foreign Key), CustomerID (Primary Key, Foreign Key), Date_Rented, Due_Date.</paragraph>
+ <paragraph index="349" node_type="writer" parent_index="327">For Customer table:</paragraph>
+ <paragraph index="351" node_type="writer" parent_index="327">INSERT INTO Customer (ID, FirstName, LastName, Address, BirthDate, PhoneNumber)</paragraph>
+ <paragraph index="352" node_type="writer" parent_index="327">VALUES (1, 'Ankit', 'Mahato', 'maitidevi', '2004-02-15', 1234567890);</paragraph>
+ <paragraph index="354" node_type="writer" parent_index="327">INSERT INTO Customer (ID, FirstName, LastName, Address, BirthDate, PhoneNumber)</paragraph>
+ <paragraph index="355" node_type="writer" parent_index="327">VALUES (2, 'Alan', 'Walker', 'Oak Ave', '1985-05-20', 9876543210);</paragraph>
+ <paragraph index="357" node_type="writer" parent_index="327">For Movie table:</paragraph>
+ <paragraph index="359" node_type="writer" parent_index="327">INSERT INTO Movie (ID, ProducerID, Title, Duration, Rating)</paragraph>
+ <paragraph index="360" node_type="writer" parent_index="327">VALUES (1, 1, 'The Shawshank Redemption', 142, 'R');</paragraph>
+ <paragraph index="362" node_type="writer" parent_index="327">INSERT INTO Movie (ID, ProducerID, Title, Duration, Rating)</paragraph>
+ <paragraph index="363" node_type="writer" parent_index="327">VALUES (2, 2, 'The Godfather', 175, 'R');</paragraph>
+ <paragraph index="365" node_type="writer" parent_index="327">For Producer table:</paragraph>
+ <paragraph index="367" node_type="writer" parent_index="327">INSERT INTO Producer (ID, CompanyName, Country)</paragraph>
+ <paragraph index="368" node_type="writer" parent_index="327">VALUES (1, 'Castle Rock Entertainment', 'USA');</paragraph>
+ <paragraph index="370" node_type="writer" parent_index="327">INSERT INTO Producer (ID, CompanyName, Country)</paragraph>
+ <paragraph index="371" node_type="writer" parent_index="327">VALUES (2, 'Paramount Pictures', 'USA');</paragraph>
+ <paragraph index="373" node_type="writer" parent_index="327">For Customer_Movie table:</paragraph>
+ <paragraph index="375" node_type="writer" parent_index="327">INSERT INTO Customer_Movie (MovieID, CustomerID, Date_Rented, Due_Date)</paragraph>
+ <paragraph index="376" node_type="writer" parent_index="327">VALUES (1, 1, '2024-07-20', '2024-07-27');</paragraph>
+ <paragraph index="378" node_type="writer" parent_index="327">INSERT INTO Customer_Movie (MovieID, CustomerID, Date_Rented, Due_Date)</paragraph>
+ <paragraph index="379" node_type="writer" parent_index="327">VALUES (2, 1, '2024-07-28', '2024-08-04');</paragraph>
+ <paragraph index="382" node_type="writer" parent_index="327">Keeping customer FirstName and LastName as separate fields has many benefits for managing data and improving application features. It allows for different ways to format and show names, makes it easier to search and sort by each name part, and helps maintain data accuracy by avoiding inconsistencies in combined names. This approach also respects various cultural naming traditions, enhances personalized interactions with users, and boosts data analysis by allowing separate examination of name parts. Additionally, it makes it easier to connect with other systems that need specific name formats.</paragraph>
+ <paragraph index="385" node_type="writer" parent_index="327">Using a DATE data type for a customer's birthdate is better than using text types like TEXT or VARCHAR. It helps keep data accurate, saves storage space, and improves functionality. DATE ensures that only valid dates are entered, which helps maintain consistency. It usually takes up less space than text formats. It also standardizes how dates are formatted, making data easier to process and reducing format issues. Additionally, date data types allow for the use of useful built-in functions for calculations and comparisons, enhance the efficiency of queries and reports that filter or sort by date, and support effective indexing for faster query performance. Lastly, using the right data type helps maintain data integrity by clearly defining what kind of data is expected, preventing the storage of incorrect values.</paragraph>
+ <paragraph index="387" node_type="writer" parent_index="327">Storing star ratings (1-5) as single characters causes several problems. First, it creates confusion about data types, making calculations harder and leading to possible errors. When sorting, characters are arranged alphabetically instead of numerically, which complicates the process. Input validation must check both the type of character and its range. Although it may save a little space, using integers is generally more efficient. This method can confuse both developers and users, hiding the fact that the data is numeric. Additionally, if the rating scale needs to be expanded, using single characters can complicate things and may require changing the data type. Storing ratings as integers avoids these issues, allowing for correct calculations, easier sorting, and clearer validation while making it simpler to extend the rating scale.</paragraph>
+ <paragraph index="390" node_type="writer" parent_index="327">In the Customer_Movie table, the key symbol next to MovieID shows that it is part of the composite primary key. When combined with CustomerID, it ensures that each record in the database is unique, meaning a specific movie can only be associated with one client for a single rental.</paragraph>
+ <paragraph index="393" node_type="writer" parent_index="327">In the Customer_Movie table, the key symbol next to CustomerID also signifies that it is a component of the composite primary key. It gives each rental record a unique identity in addition to MovieID. This makes it possible for the same client to rent more than one movie, yet each rental is unique.</paragraph>
+ <paragraph index="394" node_type="writer" parent_index="327">
+</paragraph>
+ <paragraph index="395" node_type="writer" parent_index="327">The Customer and Movie entities have a many-to-many relationship, meaning they are not directly linked. One customer can rent multiple movies, and multiple customers can rent the same movie. To manage this relationship effectively, the Customer_Movie table acts as a junction table. It also allows for the storage of additional details specific to each rental, such as Date_Rented and Due_Date. This separation leads to improved data normalization, reduced redundancy, and a more adaptable database design.</paragraph>
+ <paragraph index="398" node_type="writer" parent_index="327">A customer can have multiple entries in the Customer_Movie table because of the one-to-many connection between Customer and Customer_Movie. Each entry in this table represents a different rental transaction, showing that a customer can rent many movies.</paragraph>
+ <paragraph index="401" node_type="writer" parent_index="327">This database design is aimed at a system for managing movie rentals, suitable for a video rental store (either physical or online) or a digital movie library. The entities and attributes help in tracking customers, movies, producers, and rental transactions, including due dates. Although it can be adapted for general e-commerce, the specific focus indicates it is primarily for movie rentals. This allows for effective inventory management, customer tracking, rental processing, and necessary reporting for the business. It could also work for a streaming service, but would need changes to monitor streaming data instead of physical rentals.</paragraph>
+ <object index="408" name="Table5" object_type="table"/>
+ <paragraph index="410" node_type="writer" parent_index="408">Now let’s check how well you have understood so far! 😊</paragraph>
+ <paragraph index="413" node_type="writer" parent_index="408">How did you find attempting this exercise? </paragraph>
+ <paragraph index="416" node_type="writer" parent_index="408">Choose one (X)</paragraph>
+ <paragraph index="419" node_type="writer" parent_index="408"> I’m very confident that I have understood and completed this task successfully</paragraph>
+ <paragraph index="422" node_type="writer" parent_index="408">X</paragraph>
+ <paragraph index="425" node_type="writer" parent_index="408"> I’m fairly confident that I have understood and completed this task successfully</paragraph>
+ <paragraph index="431" node_type="writer" parent_index="408"> I think I’m getting there but I need to work on understanding this a little more</paragraph>
+ <paragraph index="437" node_type="writer" parent_index="408"> I got a bit stuck and I will need to work on understanding this a lot more</paragraph>
+ <paragraph index="445" node_type="writer">Exercise 2</paragraph>
+ <paragraph index="446" node_type="writer">Please answer the below questions based on the following entity relationship diagram:</paragraph>
+ <paragraph index="448" node_type="writer">Figure  Example ERD 2</paragraph>
+ <paragraph index="450" node_type="writer">Is this kind of ERD a logical, conceptual, or physical ERD model of a database system? Justify your answer.</paragraph>
+ <paragraph index="451" node_type="writer">What are the entities that are represented within this system design?</paragraph>
+ <paragraph index="452" node_type="writer">What attributes are represented within this system design?</paragraph>
+ <paragraph index="453" node_type="writer">Write out some INSERT INTO statements in SQL which would insert some example tuples/records into Customer, Order, Order_Product, Employee, and Product (aim for at least 2 records for each) – you do not need to create the database beforehand! Just think about what records you would like to add and what SQL code you could write to insert those records.</paragraph>
+ <paragraph index="454" node_type="writer">What is the meaning of the key symbol next to ‘ID’ on Customer?</paragraph>
+ <paragraph index="455" node_type="writer">What is the meaning of the ‘salesRepEmployeeNum’ on Customer?</paragraph>
+ <paragraph index="456" node_type="writer">What kind of relationship cardinality is there between Customer and Order? Why might this be?</paragraph>
+ <paragraph index="457" node_type="writer">Why are Product and Order not connected directly to each other, what benefit does Order_Product provide?</paragraph>
+ <paragraph index="458" node_type="writer">What is the meaning of Productlineid on Product?</paragraph>
+ <paragraph index="459" node_type="writer">What kind of software system do you believe this partial database design might be targeted towards?</paragraph>
+ <object index="462" name="Table6" object_type="table"/>
+ <paragraph index="464" node_type="writer" parent_index="462">Food for thought </paragraph>
+ <paragraph index="467" node_type="writer" parent_index="462">Let’s deepen our understanding by thinking a little deeper about this exercise and discussing our thoughts in class.</paragraph>
+ <paragraph index="470" node_type="writer" parent_index="462">What limitations does this current database design present about the kind of software system which it could underpin? Think about the kind of data that would be able to be represented within the system based on the entities, attributes and relationships present.</paragraph>
+ <object index="474" name="Table7" object_type="table"/>
+ <paragraph index="476" node_type="writer" parent_index="474">My solution </paragraph>
+ <paragraph index="479" node_type="writer" parent_index="474">Record your notes about how you attempted to answer the question / solve the exercise in this section (just edit the text box 😉)</paragraph>
+ <paragraph index="481" node_type="writer" parent_index="474">This ERD is a logical ERD as it shows the database structure with a fair amount of detail. It is more detailed than a conceptual ERD because it specifies data types for each attribute (like varchar, integer, numeric) and identifies primary keys clearly. The relationships between entities are clearly defined, including cardinality, such as one-to-many relationships. However, it is not a physical ERD since it does not include specific implementation details for a database, like index definitions, table spaces, or constraints needed by a specific database management system.</paragraph>
+ <paragraph index="484" node_type="writer" parent_index="474">The Entities represented in the system design are: Productline, Product, Order, Order_Product, Customer, Employee, Office, Payment.</paragraph>
+ <paragraph index="487" node_type="writer" parent_index="474">Each entity has the following attributes:</paragraph>
+ <paragraph index="488" node_type="writer" parent_index="474">Productline: ID, DescInText, DescInHTML, Image.</paragraph>
+ <paragraph index="489" node_type="writer" parent_index="474">Product: Code, ProductlineID, Name, Scale, Vendor, PdtDescription, QtyInStock, BuyPrice, MSRP.</paragraph>
+ <paragraph index="490" node_type="writer" parent_index="474">Order: ID, CustomerID, OrderDate, RequiredDate, ShippedDate, Status, Comments.</paragraph>
+ <paragraph index="491" node_type="writer" parent_index="474">Order_Product: ID, OrderID, ProductCode, Qty, PriceEach.</paragraph>
+ <paragraph index="492" node_type="writer" parent_index="474">Customer: ID, salesRepEmployeeNum, Name, LastName, FirstName, Phone, Address1, Address2, City, State, PostalCode, Country, CreditLimit.</paragraph>
+ <paragraph index="493" node_type="writer" parent_index="474">Employee: ID, OfficeCode, reportsTo, LastName, FirstName, Extension, Email, JobTitle.</paragraph>
+ <paragraph index="494" node_type="writer" parent_index="474">Office: Code, City, Phone, Address1, Address2, State, Country, PostalCode, Territory.</paragraph>
+ <paragraph index="495" node_type="writer" parent_index="474">Payment: CheckNum, CustomerID, PaymentDate, Amount.</paragraph>
+ <paragraph index="498" node_type="writer" parent_index="474">For Customer,</paragraph>
+ <paragraph index="499" node_type="writer" parent_index="474">INSERT INTO Customer (ID, salesRepEmployeeNum, Name, LastName, FirstName, Phone, Address1, City, State, PostalCode, Country, CreditLimit)</paragraph>
+ <paragraph index="500" node_type="writer" parent_index="474">VALUES (301, 401, 'Pashupati Traders', 'Oli', 'KP', '9841234567', 'Baluwatar', 'Kathmandu', 'Bagmati', '44600', 'Nepal', 250000.00),</paragraph>
+ <paragraph index="501" node_type="writer" parent_index="474">       (302, 402, 'Bhrukuti Stores', 'Prachanda', 'Pushpa Kamal', '9849876543', 'Khumaltar', 'Lalitpur', 'Bagmati', '44700', 'Nepal', 150000.00);</paragraph>
+ <paragraph index="503" node_type="writer" parent_index="474">For Order,</paragraph>
+ <paragraph index="504" node_type="writer" parent_index="474">INSERT INTO `Order` (ID, CustomerID, OrderDate, RequiredDate, ShippedDate, Status, Comments)</paragraph>
+ <paragraph index="505" node_type="writer" parent_index="474">VALUES (101, 101, '2024-03-15', '2024-03-22', '2024-03-20', 1, 'Bat-Signal delivery'), (102, 102, '2024-03-20', '2024-03-29', '2024-03-25', 2, 'Repulsor-powered delivery expected.');</paragraph>
+ <paragraph index="507" node_type="writer" parent_index="474">For Order_Product,</paragraph>
+ <paragraph index="508" node_type="writer" parent_index="474">INSERT INTO Order_Product (ID, OrderID, ProductCode, Qty, PriceEach)</paragraph>
+ <paragraph index="509" node_type="writer" parent_index="474">VALUES (1, 1, 101, 5, 50.00), (2, 2, 102, 10, 30.00);</paragraph>
+ <paragraph index="511" node_type="writer" parent_index="474">For Employee </paragraph>
+ <paragraph index="512" node_type="writer" parent_index="474">INSERT INTO Employee (ID, OfficeCode, reportsTo, LastName, FirstName, Extension, Email, JobTitle)</paragraph>
+ <paragraph index="513" node_type="writer" parent_index="474">VALUES (1001, 1, NULL, 'Brown', 'Alice', 'x1001', 'alice.brown@gmail.com', 'Sales Manager'), (1002, 2, 1001, 'White', 'Bob', 'x1002', 'bob.white@gmail.com', 'Sales Rep');</paragraph>
+ <paragraph index="515" node_type="writer" parent_index="474">For Product</paragraph>
+ <paragraph index="516" node_type="writer" parent_index="474">INSERT INTO Product (Code, ProductlineID, Name, Scale, Vendor, PdtDescription, QtyInStock, BuyPrice, MSRP)</paragraph>
+ <paragraph index="517" node_type="writer" parent_index="474">VALUES (101, 1, 'Product A', '1:10', 'Vendor A', 'High-quality product A', 100, 20.00, 50.00),</paragraph>
+ <paragraph index="518" node_type="writer" parent_index="474">       (102, 2, 'Product B', '1:20', 'Vendor B', 'High-quality product B', 200, 15.00, 40.00);</paragraph>
+ <paragraph index="521" node_type="writer" parent_index="474">The key symbol next to ID in the Customer table indicates that it is the primary key. It uniquely identifies each record in the Customer table, ensuring no two customers have the same ID.</paragraph>
+ <paragraph index="524" node_type="writer" parent_index="474">The salesRepEmployeeNum attribute in the Customer table is a foreign key that points to the ID in the Employee table. This connection helps to track and manage customer accounts by assigning each customer to a specific employee.</paragraph>
+ <paragraph index="527" node_type="writer" parent_index="474">Customer and Order have a one-to-many cardinal relationship. This implies that although a single consumer may place several orders, only one client is linked to each order. Real-world situations where customers might make several transactions over time are reflected in this design.</paragraph>
+ <paragraph index="529" node_type="writer" parent_index="474">Due to the many-to-many relationship, the product and the order are not directly related. Multiple products may be included in a single order, and a single product may be included in several orders. For each product in an order, the Order_Product table serves as a junction table to manage this relationship effectively and permits extra information like Qty (quantity) and PriceEach (price per unit). This offers normalisation and flexibility.</paragraph>
+ <paragraph index="532" node_type="writer" parent_index="474">The Order_Product table is crucial for handling the many-to-many relationship between Product and Order. It helps avoid duplication and keeps data accurate. This table stores important details about products in each order, such as quantity and price, which would be hard to manage if the two tables were linked directly. It also makes it easy to add, remove, or change product information in an order without altering the main Product or Order tables, and it simplifies the process of retrieving information about specific product-order pairs.</paragraph>
+ <paragraph index="535" node_type="writer" parent_index="474">This database design seems aimed at a sales and inventory management system. A company could use it for managing product lines, tracking orders, linking customers with sales representatives, processing payments, and handling office tasks. Businesses that depend a lot on product sales and order management would benefit greatly from this system.</paragraph>
+ <object index="540" name="Table8" object_type="table"/>
+ <paragraph index="542" node_type="writer" parent_index="540">Now let’s check how well you have understood so far! 😊</paragraph>
+ <paragraph index="545" node_type="writer" parent_index="540">How did you find attempting this exercise? </paragraph>
+ <paragraph index="548" node_type="writer" parent_index="540">Choose one (X)</paragraph>
+ <paragraph index="551" node_type="writer" parent_index="540"> I’m very confident that I have understood and completed this task successfully</paragraph>
+ <paragraph index="557" node_type="writer" parent_index="540"> I’m fairly confident that I have understood and completed this task successfully</paragraph>
+ <paragraph index="563" node_type="writer" parent_index="540"> I think I’m getting there but I need to work on understanding this a little more</paragraph>
+ <paragraph index="569" node_type="writer" parent_index="540"> I got a bit stuck and I will need to work on understanding this a lot more</paragraph>
+ <paragraph index="577" node_type="writer">Exercise 3</paragraph>
+ <paragraph index="578" node_type="writer">Please answer the below questions based on the following entity relationship diagram:</paragraph>
+ <paragraph index="580" node_type="writer">Figure  Example ERD 3</paragraph>
+ <paragraph index="582" node_type="writer">Is this kind of ERD a logical, conceptual, or physical ERD model of a database system? Justify your answer.</paragraph>
+ <paragraph index="583" node_type="writer">What are the entities that are represented within this system design?</paragraph>
+ <paragraph index="584" node_type="writer">What attributes are represented within this system design?</paragraph>
+ <paragraph index="585" node_type="writer">Why are Students not directly connected to Module, what purpose does Module_Student serve?</paragraph>
+ <paragraph index="586" node_type="writer">Write out some INSERT INTO statements in SQL which would insert some example tuples/records into Student, Module_Student, Module, Department and Instructor (aim for at least 2 records for each) – you do not need to create the database beforehand! Just think about what records you would like to add and what SQL code you could write to insert those records.</paragraph>
+ <paragraph index="587" node_type="writer">Which SQL DDL statement would allow you to create the data structure which will be used to store Student data? </paragraph>
+ <paragraph index="588" node_type="writer">Which SQL DDL statement would allow you to create the data structure which will be used to store Module_Student data? </paragraph>
+ <paragraph index="589" node_type="writer">What kind of software system do you believe this partial database design might be targeted towards? What limitations does the current design present?</paragraph>
+ <object index="592" name="Table9" object_type="table"/>
+ <paragraph index="594" node_type="writer" parent_index="592">Food for thought </paragraph>
+ <paragraph index="597" node_type="writer" parent_index="592">Let’s deepen our understanding by thinking a little deeper about this exercise and discussing our thoughts in class.</paragraph>
+ <paragraph index="600" node_type="writer" parent_index="592">What limitations does this current database design present about the kind of software system which it could underpin? Think about the kind of data that would be able to be represented within the system based on the entities, attributes and relationships present.</paragraph>
+ <object index="604" name="Table10" object_type="table"/>
+ <paragraph index="606" node_type="writer" parent_index="604">My solution </paragraph>
+ <paragraph index="609" node_type="writer" parent_index="604">Record your notes about how you attempted to answer the question / solve the exercise in this section (just edit the text box 😉)</paragraph>
+ <paragraph index="611" node_type="writer" parent_index="604">The provided ERD diagram is a logical model for a database system. It outlines the columns in each table along with their data types. Key features of a physical ERD model include the representation of these data types and the clear identification of primary keys in each table.</paragraph>
+ <paragraph index="614" node_type="writer" parent_index="604">The Entities represented in the system design are: Department, Instructor, Module, Student, Module_Student.</paragraph>
+ <paragraph index="617" node_type="writer" parent_index="604">Each entity has the following attributes:</paragraph>
+ <paragraph index="618" node_type="writer" parent_index="604">Department: Name, Location, headedBy.</paragraph>
+ <paragraph index="620" node_type="writer" parent_index="604">Instructor: ID, DepartmentName, FirstName, LastName, Phone.</paragraph>
+ <paragraph index="622" node_type="writer" parent_index="604">Module: ID, DepartmentName, InstructorID, Duration, Name.</paragraph>
+ <paragraph index="624" node_type="writer" parent_index="604">Student: ID, FirstName, LastName, Phone.</paragraph>
+ <paragraph index="626" node_type="writer" parent_index="604">Module_Student: ModuleID, StudentID, Grade</paragraph>
+ <paragraph index="629" node_type="writer" parent_index="604">The relationship between students and modules is characterized as many-to-many, as an individual student may enroll in several modules, and a single module can accommodate multiple students. This complex relationship is facilitated by the Module_Student table, which acts as a junction table. Additionally, this table allows for the inclusion of supplementary information, such as grades, which track each student's performance in specific modules. Without this intermediary table, it would be challenging to accurately represent and oversee these relationships.</paragraph>
+ <paragraph index="632" node_type="writer" parent_index="604">For Department</paragraph>
+ <paragraph index="634" node_type="writer" parent_index="604">INSERT INTO Department (Name, Location, headedBy)</paragraph>
+ <paragraph index="635" node_type="writer" parent_index="604">VALUES ('Computer Science', 'Pashupati Campus', 101),</paragraph>
+ <paragraph index="636" node_type="writer" parent_index="604">('Mathematics', 'Tribhuvan University Building', 102); </paragraph>
+ <paragraph index="639" node_type="writer" parent_index="604">For Instructor,</paragraph>
+ <paragraph index="640" node_type="writer" parent_index="604">INSERT INTO Instructor (ID, DepartmentName, FirstName, LastName, Phone)</paragraph>
+ <paragraph index="641" node_type="writer" parent_index="604">VALUES (101, 'Computer Science', 'Aarati', 'Shrestha', '9841234567'),</paragraph>
+ <paragraph index="642" node_type="writer" parent_index="604">(102, 'Mathematics', 'Bishal', 'Poudel', '9812345678');</paragraph>
+ <paragraph index="645" node_type="writer" parent_index="604">For Module,</paragraph>
+ <paragraph index="646" node_type="writer" parent_index="604">INSERT INTO Module (ID, DepartmentName, InstructorID, Duration, Name)</paragraph>
+ <paragraph index="647" node_type="writer" parent_index="604">VALUES (1, 'Computer Science', 101, 10, 'Database Systems'),</paragraph>
+ <paragraph index="648" node_type="writer" parent_index="604">       (2, 'Mathematics', 102, 8, 'Linear Algebra');</paragraph>
+ <paragraph index="650" node_type="writer" parent_index="604">For Student,</paragraph>
+ <paragraph index="651" node_type="writer" parent_index="604">INSERT INTO Student (ID, FirstName, LastName, Phone)</paragraph>
+ <paragraph index="652" node_type="writer" parent_index="604">VALUES (201, 'Ankit', 'Mahato', '9821248422'),</paragraph>
+ <paragraph index="653" node_type="writer" parent_index="604">       (202, 'Ariana', 'Ghimire', '6543210987');</paragraph>
+ <paragraph index="655" node_type="writer" parent_index="604">For Module_Student,</paragraph>
+ <paragraph index="656" node_type="writer" parent_index="604">INSERT INTO Module_Student (ModuleID, StudentID, Grade)</paragraph>
+ <paragraph index="657" node_type="writer" parent_index="604">VALUES (1, 201, 85),</paragraph>
+ <paragraph index="658" node_type="writer" parent_index="604">      (2, 202, 90);</paragraph>
+ <paragraph index="660" node_type="writer" parent_index="604">The DDL statement to create a data structure which will be used to store student data is:</paragraph>
+ <paragraph index="661" node_type="writer" parent_index="604">CREATE TABLE Student (</paragraph>
+ <paragraph index="662" node_type="writer" parent_index="604">ID INTEGER(10) PRIMARY KEY,</paragraph>
+ <paragraph index="663" node_type="writer" parent_index="604">FirstName VARCHAR(255) NOT NULL,</paragraph>
+ <paragraph index="664" node_type="writer" parent_index="604">LastName VARCHAR(255) NOT NULL,</paragraph>
+ <paragraph index="665" node_type="writer" parent_index="604">Phone VARCHAR(255)</paragraph>
+ <paragraph index="666" node_type="writer" parent_index="604">);</paragraph>
+ <paragraph index="668" node_type="writer" parent_index="604">The DDL statement to create a data structure which will be used to store Module student data is:</paragraph>
+ <paragraph index="669" node_type="writer" parent_index="604">CREATE TABLE Module_Student (</paragraph>
+ <paragraph index="670" node_type="writer" parent_index="604">ModuleID INTEGER(10),</paragraph>
+ <paragraph index="671" node_type="writer" parent_index="604">StudentID INTEGER(10),</paragraph>
+ <paragraph index="672" node_type="writer" parent_index="604">Grade INTEGER(3),</paragraph>
+ <paragraph index="673" node_type="writer" parent_index="604">PRIMARY KEY (ModuleID, StudentID),</paragraph>
+ <paragraph index="674" node_type="writer" parent_index="604">FOREIGN KEY (ModuleID) REFERENCES Module(ID),</paragraph>
+ <paragraph index="675" node_type="writer" parent_index="604">FOREIGN KEY (StudentID) REFERENCES Student(ID)</paragraph>
+ <paragraph index="676" node_type="writer" parent_index="604">);</paragraph>
+ <paragraph index="678" node_type="writer" parent_index="604">It looks like this database design is aimed at a college or university academic management system. Essential information including departments and their locations, teachers and the departments they are assigned to, students and the modules they are enrolled in, grades, and course lengths could all be managed by the system. It offers a framework for methodically monitoring academic relationships and performance.</paragraph>
+ <paragraph index="680" node_type="writer" parent_index="604">The design has several drawbacks. It lacks time-specific details like semesters or academic years, making it difficult to track module enrolments over time. It also assumes each module is taught by a single instructor, ignoring cases with multiple instructors or groups. Missing details like instructor qualifications, module schedules, and student enrolment dates limit its functionality. Additionally, it does not support cross-departmental modules or electives, which are essential in larger institutions. Addressing these issues would make the system more scalable and practical</paragraph>
+ <object index="684" name="Table11" object_type="table"/>
+ <paragraph index="686" node_type="writer" parent_index="684">Now let’s check how well you have understood so far! 😊</paragraph>
+ <paragraph index="689" node_type="writer" parent_index="684">How did you find attempting this exercise? </paragraph>
+ <paragraph index="692" node_type="writer" parent_index="684">Choose one (X)</paragraph>
+ <paragraph index="695" node_type="writer" parent_index="684"> I’m very confident that I have understood and completed this task successfully</paragraph>
+ <paragraph index="701" node_type="writer" parent_index="684"> I’m fairly confident that I have understood and completed this task successfully</paragraph>
+ <paragraph index="707" node_type="writer" parent_index="684"> I think I’m getting there but I need to work on understanding this a little more</paragraph>
+ <paragraph index="713" node_type="writer" parent_index="684"> I got a bit stuck and I will need to work on understanding this a lot more</paragraph>
+ <paragraph index="723" node_type="writer">Exercise 4</paragraph>
+ <paragraph index="724" node_type="writer">The sample database found on Moodle in Week 3 (mysqlsampledatabase) contains a SQL script called “mysqlsampledatabase.sql”, read through the script, and answer the following questions:</paragraph>
+ <paragraph index="725" node_type="writer">What statement is used to create the database within the script?</paragraph>
+ <paragraph index="726" node_type="writer">What is the name of the database created within the script?</paragraph>
+ <paragraph index="727" node_type="writer">Which statement does the SQL script use to select the database it will run further queries on?</paragraph>
+ <paragraph index="728" node_type="writer">Which block of SQL code produces the `customers` table? Explain the SQL code by picking it apart.</paragraph>
+ <paragraph index="729" node_type="writer">Which statement is used to put some example records into the `customers` table?</paragraph>
+ <paragraph index="730" node_type="writer">Using draw.io or some equivalent diagramming software, draw a diagram which represents just the `customers` table </paragraph>
+ <paragraph index="731" node_type="writer">Which block of SQL code produces the `employees` table? Explain the SQL code by picking it apart.</paragraph>
+ <paragraph index="732" node_type="writer">Using draw.io or some equivalent diagramming software, draw a diagram which represents just the `employees` table </paragraph>
+ <paragraph index="733" node_type="writer">Which statement is used to put some example records into the `employees` table?</paragraph>
+ <paragraph index="734" node_type="writer">Which block of SQL code produces the `offices` table? Explain the SQL code by picking it apart.</paragraph>
+ <paragraph index="735" node_type="writer">Using draw.io or some equivalent diagramming software, draw a diagram which represents just the `offices` table </paragraph>
+ <paragraph index="736" node_type="writer">Which statement is used to put some example records into the `offices` table?</paragraph>
+ <paragraph index="737" node_type="writer">Using draw.io or some equivalent diagramming software, draw a diagram containing the `customers`, `employees` and `offices` entities</paragraph>
+ <paragraph index="738" node_type="writer">Modify the above diagram to establish the relationship between these entities, transforming it from a diagram that just displays those entities on their own to one that shows entities and their relationships between each other (and ERD)</paragraph>
+ <object index="744" name="Table12" object_type="table"/>
+ <paragraph index="746" node_type="writer" parent_index="744">Food for thought </paragraph>
+ <paragraph index="749" node_type="writer" parent_index="744">Let’s deepen our understanding by thinking a little deeper about this exercise and discussing our thoughts in class.</paragraph>
+ <paragraph index="752" node_type="writer" parent_index="744">In the previous exercises we asked you to pick apart some example ERD designs and think about what information they are conveying and what practical software systems could be built from them. In this exercise we have a sample database implementation, and we are asking you to pick this apart before thinking about an equivalent ERD design which would represent that implementation.</paragraph>
+ <paragraph index="754" node_type="writer" parent_index="744">Why would we ask you to focus on solving these ERD problems in either direction? Namely what benefits could understanding the following give you in real world scenarios:</paragraph>
+ <paragraph index="755" node_type="writer" parent_index="744">Going from an abstracted Design to Implementation details?</paragraph>
+ <paragraph index="756" node_type="writer" parent_index="744">Going from Implementation details to an abstracted Design?</paragraph>
+ <object index="760" name="Table13" object_type="table"/>
+ <paragraph index="762" node_type="writer" parent_index="760">My solution </paragraph>
+ <paragraph index="765" node_type="writer" parent_index="760">Record your notes about how you attempted to answer the question / solve the exercise in this section (just edit the text box 😉)</paragraph>
+ <paragraph index="766" node_type="writer" parent_index="760">The statement used to create the database is:</paragraph>
+ <paragraph index="767" node_type="writer" parent_index="760">CREATE DATABASE /*!32312 IF NOT EXISTS*/`classicmodels` /*!40100 DEFAULT CHARACTER SET latin1 */;</paragraph>
+ <paragraph index="769" node_type="writer" parent_index="760">The name of the database is classicmodels.</paragraph>
+ <paragraph index="771" node_type="writer" parent_index="760">The statement used to select the database is:</paragraph>
+ <paragraph index="772" node_type="writer" parent_index="760">USE `classicmodels`;</paragraph>
+ <paragraph index="774" node_type="writer" parent_index="760">The block of SQL code to create the customers table is:</paragraph>
+ <paragraph index="775" node_type="writer" parent_index="760">CREATE TABLE `customers` (</paragraph>
+ <paragraph index="776" node_type="writer" parent_index="760">`customerNumber` int(11) NOT NULL,</paragraph>
+ <paragraph index="777" node_type="writer" parent_index="760">`customerName` varchar(50) NOT NULL,</paragraph>
+ <paragraph index="778" node_type="writer" parent_index="760">`contactLastName` varchar(50) NOT NULL,</paragraph>
+ <paragraph index="779" node_type="writer" parent_index="760">`contactFirstName` varchar(50) NOT NULL,</paragraph>
+ <paragraph index="780" node_type="writer" parent_index="760">`phone` varchar(50) NOT NULL,</paragraph>
+ <paragraph index="781" node_type="writer" parent_index="760">`addressLine1` varchar(50) NOT NULL,</paragraph>
+ <paragraph index="782" node_type="writer" parent_index="760">`addressLine2` varchar(50) DEFAULT NULL,</paragraph>
+ <paragraph index="783" node_type="writer" parent_index="760">`city` varchar(50) NOT NULL,</paragraph>
+ <paragraph index="784" node_type="writer" parent_index="760">`state` varchar(50) DEFAULT NULL,</paragraph>
+ <paragraph index="785" node_type="writer" parent_index="760">`postalCode` varchar(15) DEFAULT NULL,</paragraph>
+ <paragraph index="786" node_type="writer" parent_index="760">`country` varchar(50) NOT NULL,</paragraph>
+ <paragraph index="787" node_type="writer" parent_index="760">`salesRepEmployeeNumber` int(11) DEFAULT NULL,</paragraph>
+ <paragraph index="788" node_type="writer" parent_index="760">`creditLimit` double DEFAULT NULL,</paragraph>
+ <paragraph index="789" node_type="writer" parent_index="760">PRIMARY KEY (`customerNumber`),</paragraph>
+ <paragraph index="790" node_type="writer" parent_index="760">KEY `salesRepEmployeeNumber` (`salesRepEmployeeNumber`),</paragraph>
+ <paragraph index="791" node_type="writer" parent_index="760">CONSTRAINT `customers_ibfk_1` FOREIGN KEY (`salesRepEmployeeNumber`) REFERENCES `employees` (`employeeNumber`)</paragraph>
+ <paragraph index="792" node_type="writer" parent_index="760">) ENGINE=InnoDB DEFAULT CHARSET=latin1;</paragraph>
+ <paragraph index="796" node_type="writer" parent_index="760">customerNumber: Primary key, ensures each customer has a unique identifier.</paragraph>
+ <paragraph index="797" node_type="writer" parent_index="760">customerName, contactLastName, contactFirstName, and other columns: Store customer details like name, phone number, address, and contact details. Fields marked as NOT NULL are mandatory.</paragraph>
+ <paragraph index="798" node_type="writer" parent_index="760">salesRepEmployeeNumber: A foreign key that links the customers table to the employees table via employeeNumber.</paragraph>
+ <paragraph index="799" node_type="writer" parent_index="760">PRIMARY KEY: Ensures customerNumber is unique.</paragraph>
+ <paragraph index="800" node_type="writer" parent_index="760">FOREIGN KEY: Enforces referential integrity with the employees table.</paragraph>
+ <paragraph index="804" node_type="writer" parent_index="760">The script uses the INSERT INTO statement. An example is:</paragraph>
+ <paragraph index="805" node_type="writer" parent_index="760">INSERT INTO `customers`(`customerNumber`, `customerName`, `contactLastName`, `contactFirstName`, `phone`, `addressLine1`, `addressLine2`, `city`, `state`, `postalCode`, `country`, `salesRepEmployeeNumber`, `creditLimit`)</paragraph>
+ <paragraph index="806" node_type="writer" parent_index="760">VALUES </paragraph>
+ <paragraph index="807" node_type="writer" parent_index="760">(103, 'Atelier graphique', 'Schmitt', 'Carine', '40.32.2555', '54 rue Royale', NULL, 'Nantes', NULL, '44000', 'France', 1370, 21000.00),</paragraph>
+ <paragraph index="808" node_type="writer" parent_index="760">(112, 'Signal Gift Stores', 'King', 'Jean', '7025551838', '8489 Strong St.', 'Suite 45', 'Las Vegas', 'NV', '83030', 'USA', 1166, 71800.00);</paragraph>
+ <paragraph index="817" node_type="writer" parent_index="760">The block for the employees table is:</paragraph>
+ <paragraph index="818" node_type="writer" parent_index="760">CREATE TABLE `employees` (</paragraph>
+ <paragraph index="819" node_type="writer" parent_index="760">`employeeNumber` int(11) NOT NULL,</paragraph>
+ <paragraph index="820" node_type="writer" parent_index="760">`lastName` varchar(50) NOT NULL,</paragraph>
+ <paragraph index="821" node_type="writer" parent_index="760">`firstName` varchar(50) NOT NULL,</paragraph>
+ <paragraph index="822" node_type="writer" parent_index="760">`extension` varchar(10) NOT NULL,</paragraph>
+ <paragraph index="823" node_type="writer" parent_index="760">`email` varchar(100) NOT NULL,</paragraph>
+ <paragraph index="824" node_type="writer" parent_index="760">`officeCode` varchar(10) NOT NULL,</paragraph>
+ <paragraph index="825" node_type="writer" parent_index="760">`reportsTo` int(11) DEFAULT NULL,</paragraph>
+ <paragraph index="826" node_type="writer" parent_index="760">`jobTitle` varchar(50) NOT NULL,</paragraph>
+ <paragraph index="827" node_type="writer" parent_index="760">PRIMARY KEY (`employeeNumber`),</paragraph>
+ <paragraph index="828" node_type="writer" parent_index="760">KEY `reportsTo` (`reportsTo`),</paragraph>
+ <paragraph index="829" node_type="writer" parent_index="760">CONSTRAINT `employees_ibfk_1` FOREIGN KEY (`reportsTo`) REFERENCES `employees` (`employeeNumber`)</paragraph>
+ <paragraph index="830" node_type="writer" parent_index="760">) ENGINE=InnoDB DEFAULT CHARSET=latin1;</paragraph>
+ <paragraph index="832" node_type="writer" parent_index="760">employeeNumber: Primary key, uniquely identifies employees.</paragraph>
+ <paragraph index="833" node_type="writer" parent_index="760">lastName and firstName: Store employee names.</paragraph>
+ <paragraph index="834" node_type="writer" parent_index="760">officeCode: Links to the offices table.</paragraph>
+ <paragraph index="835" node_type="writer" parent_index="760">reportsTo: Self-referential foreign key for manager relationships.</paragraph>
+ <paragraph index="836" node_type="writer" parent_index="760">jobTitle: Represents the role of the employee.</paragraph>
+ <paragraph index="842" node_type="writer" parent_index="760">The script uses INSERT INTO statements like:</paragraph>
+ <paragraph index="843" node_type="writer" parent_index="760">INSERT INTO `employees` (`employeeNumber`, `lastName`, `firstName`, `extension`, `email`, `officeCode`, `reportsTo`, `jobTitle`)</paragraph>
+ <paragraph index="844" node_type="writer" parent_index="760">VALUES </paragraph>
+ <paragraph index="845" node_type="writer" parent_index="760">(1002, 'Murphy', 'Diane', 'x5800', 'dmurphy@classicmodelcars.com', '1', NULL, 'President'),</paragraph>
+ <paragraph index="846" node_type="writer" parent_index="760">(1056, 'Patterson', 'Mary', 'x4611', 'mpatterso@classicmodelcars.com', '1', 1002, 'VP Sales');</paragraph>
+ <paragraph index="849" node_type="writer" parent_index="760">The block for the offices table is:</paragraph>
+ <paragraph index="850" node_type="writer" parent_index="760">CREATE TABLE `offices` (</paragraph>
+ <paragraph index="851" node_type="writer" parent_index="760">`officeCode` varchar(10) NOT NULL,</paragraph>
+ <paragraph index="852" node_type="writer" parent_index="760">`city` varchar(50) NOT NULL,</paragraph>
+ <paragraph index="853" node_type="writer" parent_index="760">`phone` varchar(50) NOT NULL,</paragraph>
+ <paragraph index="854" node_type="writer" parent_index="760">`addressLine1` varchar(50) NOT NULL,</paragraph>
+ <paragraph index="855" node_type="writer" parent_index="760">`addressLine2` varchar(50) DEFAULT NULL,</paragraph>
+ <paragraph index="856" node_type="writer" parent_index="760">`state` varchar(50) DEFAULT NULL,</paragraph>
+ <paragraph index="857" node_type="writer" parent_index="760">`country` varchar(50) NOT NULL,</paragraph>
+ <paragraph index="858" node_type="writer" parent_index="760">`postalCode` varchar(15) NOT NULL,</paragraph>
+ <paragraph index="859" node_type="writer" parent_index="760">`territory` varchar(10) NOT NULL,</paragraph>
+ <paragraph index="860" node_type="writer" parent_index="760">PRIMARY KEY (`officeCode`)</paragraph>
+ <paragraph index="861" node_type="writer" parent_index="760">) ENGINE=InnoDB DEFAULT CHARSET=latin1;</paragraph>
+ <paragraph index="863" node_type="writer" parent_index="760">officeCode: Primary key, uniquely identifies offices.</paragraph>
+ <paragraph index="864" node_type="writer" parent_index="760">Other fields like city, phone, addressLine1 store details about office locations.</paragraph>
+ <paragraph index="870" node_type="writer" parent_index="760">An example:</paragraph>
+ <paragraph index="871" node_type="writer" parent_index="760">INSERT INTO `offices` (`officeCode`, `city`, `phone`, `addressLine1`, `addressLine2`, `state`, `country`, `postalCode`, `territory`)</paragraph>
+ <paragraph index="872" node_type="writer" parent_index="760">VALUES </paragraph>
+ <paragraph index="873" node_type="writer" parent_index="760">('1', 'San Francisco', '+1 650 219 4782', '100 Market Street', 'Suite 300', 'CA', 'USA', '94080', 'NA'),</paragraph>
+ <paragraph index="874" node_type="writer" parent_index="760">('2', 'Boston', '+1 215 837 0825', '1550 Court Place', 'Suite 102', 'MA', 'USA', '02107', 'NA');</paragraph>
+ <paragraph index="882" node_type="writer" parent_index="760">Modified ERD</paragraph>
+ <object index="889" name="Table14" object_type="table"/>
+ <paragraph index="891" node_type="writer" parent_index="889">Now let’s check how well you have understood so far! 😊</paragraph>
+ <paragraph index="894" node_type="writer" parent_index="889">How did you find attempting this exercise? </paragraph>
+ <paragraph index="897" node_type="writer" parent_index="889">Choose one (X)</paragraph>
+ <paragraph index="900" node_type="writer" parent_index="889"> I’m very confident that I have understood and completed this task successfully</paragraph>
+ <paragraph index="906" node_type="writer" parent_index="889"> I’m fairly confident that I have understood and completed this task successfully</paragraph>
+ <paragraph index="912" node_type="writer" parent_index="889"> I think I’m getting there but I need to work on understanding this a little more</paragraph>
+ <paragraph index="918" node_type="writer" parent_index="889"> I got a bit stuck and I will need to work on understanding this a lot more</paragraph>
+ <paragraph index="926" node_type="writer">Additional Notes</paragraph>
+ <paragraph index="927" node_type="writer">Extension task</paragraph>
+ <paragraph index="931" node_type="writer">Finished early? Excellent! </paragraph>
+ <paragraph index="933" node_type="writer">Use this opportunity to discuss with your lab tutor what you have understood so far and ask them to assign some tasks that you could attempt to further refine your skills and knowledge.</paragraph>
+</indexing>
